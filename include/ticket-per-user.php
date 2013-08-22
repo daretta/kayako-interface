@@ -70,7 +70,7 @@ foreach($aDeveloper as $iDeveloperId) {
 <script>
 $(document).ready(function () {
   /* reload */
-  setTimeout('location.href="http://kayako-interface.patrizio.me/<?php echo $iDepartment; ?>/chart"', 150000);
+  setTimeout('location.href="/<?php echo $iDepartment; ?>/chart"', 150000);
   /* ticket list */
   var totalWidths = 0;
   $('#noone li').each(function(){

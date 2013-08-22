@@ -46,7 +46,7 @@
     }
     $(document).ready(function () {
       /* reload */
-      setTimeout('location.href="http://kayako-interface.patrizio.me/<?php echo $iDepartment; ?>/customer"', 150000);
+      setTimeout('location.href="/<?php echo $iDepartment; ?>/customer"', 150000);
     });
   </script>
 </html>
