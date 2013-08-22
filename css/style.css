@@ -1,0 +1,38 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+}
+li {
+  margin: 5px;
+  padding: 5px;
+  width: 150px;
+}
+.developer-list {
+  display:inline-block;
+  vertical-align:top;
+}
+#open-list {
+	width:100%;
+  overflow-x: hidden;
+  border-bottom: 1px solid #DDD;
+  margin-bottom: 1em;
+}
+#open-list li {
+	display:inline-block;
+	vertical-align:top;
+}
+.ticket-list li {
+  background-color:rgba(255,255,255,0.8);
+  box-shadow: 1px 1px 6px #888888;
+  -webkit-box-shadow: 1px 1px 6px #888888;
+  -moz-box-shadow: 1px 1px 6px #888888;
+}
+.ticket-list li.status-4 {
+  background-color:rgba(123,160,91,0.8);
+  /* 0 	168 	107 */
+}
+.ticket-list li.status-7 {
+  background-color:rgba(192,192,192,0.8);
+}
